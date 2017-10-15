@@ -2,6 +2,8 @@
 
 body {
 	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin: 0;
 	padding: 0;
 }
@@ -12,12 +14,7 @@ body {
 /*the default value for images in-line*/
 /*divs side-by-side are in-line block*/
 /*padding-just extra space; margin- space that nothing else can touch*/
-/*.Hera-Initiative{
-	background-image: url('images/background.jpg');
-	background-size: cover;
-	height: 100vh;
-	width: 100%;
-	padding: 50px;
+.Hera-Initiative{
 	color: #002f6C;
 	
 
