@@ -1,0 +1,65 @@
+/* Sometimes browsers (like Chrome) assume some default padding and margin. This is annoying for web designers since different browsers (like Safari) assume different defaults, making pages look inconsistent. This resets everything back to normal. */
+
+body {
+	background-image: url("background.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*defaut value for divs is block */
+/*the default value for images in-line*/
+/*divs side-by-side are in-line block*/
+/*padding-just extra space; margin- space that nothing else can touch*/
+/*.Hera-Initiative{
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	padding: 50px;
+	color: #002f6C;
+	
+
+}
+/*.content{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+	text-transform:uppercase;
+	font-size: 36px;
+
+}
+
+.column{
+	border-top: 3px dotted #F28D5F;
+	display: inline-block;
+	width: 30%;
+	margin-right: 5%;
+	text-align: center;
+	padding: 40px 0;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 18px;
+	
+
+}
+
+.columns .column:nth-child(3n){
+	margin-right: 0px;
+	}
+
+	/****RESPONSIVE WEB DESIGN****/
+/*@media only screen and (max-width: 700px){
+	   .column{
+	   	display: block;
+	   	margin-left: auto;
+	   	margin-right:auto;
+	   }
+	   */
+}
